@@ -5,7 +5,7 @@ export default function BestPriceCard(props){
         <div className="bestpricecard">
             <p className="bestpricetitle">{props.pricetitle}</p>
             <p className="bestsubsprice">{props.subsprice}</p>
-            <a href="https://bonceback-frontend.vercel.app/"><BestBtn btntext="Get Start!"/></a>
+            <a href="https://bonceback-frontend.vercel.app/role"><BestBtn btntext="Get Start!"/></a>
             <div className="bestfeaturelist">
                 <ul>
                     <li>{props.line1}</li>

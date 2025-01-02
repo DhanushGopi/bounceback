@@ -11,7 +11,7 @@ export default function HeroSection(){
                 <p className='herosubtitle'>Seamlessly connect with physiotherapists, get personalized guidance, and achieve measurable results at all in one platform.</p>
                 <div className='herobtns'>
                     <NavLink to='/about'><SecBtn btntext="Explore More"/></NavLink>
-                    <a href="https://bonceback-frontend.vercel.app/"><PrimaryBtn btntext="Get Start!"/></a>
+                    <a href="https://bonceback-frontend.vercel.app/role"><PrimaryBtn btntext="Get Start!"/></a>
                 </div>
                 <div className='herotrust'>
                     <img src={doctrust} className="docdp" alt="doctors who use the app"/>

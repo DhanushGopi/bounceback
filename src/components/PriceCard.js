@@ -5,7 +5,7 @@ export default function PriceCard(props){
         <div className="pricecard">
             <p className="pricetitle">{props.pricetitle}</p>
             <p className="subsprice">{props.subsprice}</p>
-            <a href="https://bonceback-frontend.vercel.app/"><PrimaryBtn btntext="Get Start!"/></a>
+            <a href="https://bonceback-frontend.vercel.app/role"><PrimaryBtn btntext="Get Start!"/></a>
             <div className="featurelist">
                 <ul>
                     <li>{props.line1}</li>

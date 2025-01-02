@@ -14,7 +14,7 @@ export default function Navbar(props){
             </div>
             <div className='navctabtns'>
             <a href="https://bonceback-frontend.vercel.app/"><SecBtn btntext="Login"/></a>
-            <a href="https://bonceback-frontend.vercel.app/"><PrimaryBtn btntext="Get Start!"/></a>
+            <a href="https://bonceback-frontend.vercel.app/role"><PrimaryBtn btntext="Get Start!"/></a>
             </div>
         </div>
     )
